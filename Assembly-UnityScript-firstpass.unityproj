@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C2BD0FE7-59AF-7220-74DD-C8CD6E2A631E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>F:/Program Files/Unity 5.0.1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>F:/Program Files/Unity 5.0.1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
+     <None Include="Assets\Reports\X Fighter\Race Data 46.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 12.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 36.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 13.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 28.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 30.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 45.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 16.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 1.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 48.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 29.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 10.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 29.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 40.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 22.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 42.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 42.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 32.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 2.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 19.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 43.txt" />
+     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Reports\HoverCar\Race Data 24.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 50.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 21.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 26.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 16.txt" />
+     <None Include="Assets\Dark Future\ReadMe.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 9.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 32.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 14.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 18.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 23.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 5.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 3.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 17.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 41.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 25.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 19.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 13.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 3.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 1.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 29.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 16.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 1.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 47.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 19.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 12.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 7.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 49.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 21.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 18.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 24.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 46.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 5.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 22.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 2.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 44.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 49.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 48.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 43.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 23.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 32.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 36.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 46.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 28.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 11.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 30.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 9.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 49.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 47.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 8.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 20.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 44.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 16.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 24.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 38.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 3.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 27.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 17.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 6.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 48.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 25.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 34.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 9.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 5.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 15.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 39.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 22.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 36.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 30.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 31.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 39.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 4.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 46.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 10.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 34.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 4.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 45.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 25.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 17.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 27.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 3.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 49.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 50.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 22.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 10.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 28.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 36.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 38.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 37.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 36.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 8.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 23.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 37.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 2.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 40.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 10.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 8.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 44.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 4.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 47.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 24.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 46.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 33.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 30.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 20.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 30.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 13.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 13.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 20.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 20.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 2.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 18.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 33.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 34.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 6.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 39.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 50.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 17.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 18.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 34.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 12.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 23.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 47.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 9.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 11.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 7.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 45.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 45.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 22.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 19.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 45.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 43.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 27.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 35.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 6.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 37.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 13.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 28.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 20.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 26.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 40.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 26.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 26.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 47.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 4.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 5.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 41.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 6.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 38.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 1.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 12.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 51.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 38.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 8.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 21.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 7.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 33.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 25.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 14.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 45.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 50.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 27.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 30.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 18.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 20.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 42.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 31.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 31.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 40.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 11.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 2.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 11.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 40.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 34.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 6.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 21.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 23.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 46.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 12.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 39.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 7.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 7.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 44.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 5.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 38.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 49.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 31.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 13.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 32.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 3.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 9.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 50.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 19.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 35.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 43.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 17.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 22.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 11.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 33.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 16.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 15.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 47.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 35.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 35.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 5.txt" />
+     <None Include="Assets\Models\Vehicles\Hover9K\Shaders\Transparent Bumped Specular Cutout.shader" />
+     <None Include="Assets\Reports\SX1\Race Data 24.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 8.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 11.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 28.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 43.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 6.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 9.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 31.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 14.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 15.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 49.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 19.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 44.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 26.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 16.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 36.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 35.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 2.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 38.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 32.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 48.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 7.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 41.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 48.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 37.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 39.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 14.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 42.txt" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 29.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 23.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 43.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 26.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 1.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 10.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 10.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 41.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 48.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 42.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 12.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 8.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 29.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 4.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 40.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 15.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 33.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 37.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 15.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 29.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 37.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 17.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 27.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 15.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 33.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 14.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 39.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 50.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 35.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 28.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 24.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 25.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 18.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 21.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 41.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 44.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 31.txt" />
+     <None Include="Assets\Reports\HoverCar\Race Data 1.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 4.txt" />
+     <None Include="Assets\Reports\Feisar\Race Data 27.txt" />
+     <None Include="Assets\Reports\Hover9K\Race Data 42.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 3.txt" />
+     <None Include="Assets\Reports\X Fighter\Race Data 25.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 32.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 14.txt" />
+     <None Include="Assets\Reports\SX1\Race Data 34.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 41.txt" />
+     <None Include="Assets\Reports\Blue Falcon\Race Data 21.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>F:/Program Files/Unity 5.0.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>F:/Program Files/Unity 5.0.1/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

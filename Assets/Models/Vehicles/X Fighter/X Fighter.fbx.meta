@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 23d5b07412694054fa30273ffecd65f2
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: alieronl
+    100002: alieronr
+    100004: ellipse
+    100006: flamel
+    100008: flamer
+    100010: fuzel
+    100012: fuzel00000
+    100014: fuzel00001
+    100016: //RootNode
+    400000: alieronl
+    400002: alieronr
+    400004: ellipse
+    400006: flamel
+    400008: flamer
+    400010: fuzel
+    400012: fuzel00000
+    400014: fuzel00001
+    400016: //RootNode
+    2300000: alieronl
+    2300002: alieronr
+    2300004: ellipse
+    2300006: flamel
+    2300008: flamer
+    2300010: fuzel
+    2300012: fuzel00000
+    2300014: fuzel00001
+    2300016: //RootNode
+    3300000: alieronl
+    3300002: alieronr
+    3300004: ellipse
+    3300006: flamel
+    3300008: flamer
+    3300010: fuzel
+    3300012: fuzel00000
+    3300014: fuzel00001
+    3300016: //RootNode
+    4300000: fuzel00001
+    4300002: fuzel00000
+    4300004: fuzel
+    4300006: flamer
+    4300008: flamel
+    4300010: ellipse
+    4300012: alieronr
+    4300014: alieronl
+    7400000: 'alieronl|Body|Body|Feisar_Ship|Take 001|BaseLayer|Body|Feisar_Ship|Take '
+    7400002: alieronl|Feisar_Ship|Feisar_Ship|Feisar_Ship|Take 001|BaseLayer|Feisar_S
+    7400004: alieronl|Feisar_Ship|Take 001|BaseLayer
+    7400006: 'alieronr|Body|Body|Feisar_Ship|Take 001|BaseLayer|Body|Feisar_Ship|Take '
+    7400008: alieronr|Feisar_Ship|Feisar_Ship|Feisar_Ship|Take 001|BaseLayer|Feisar_S
+    7400010: alieronr|Feisar_Ship|Take 001|BaseLayer
+    7400012: alieronr|SX1|SX1|Body|Body|Feisar_Ship|Take 001|BaseLayer|Body|Feisar_Sh
+    7400014: alieronr|SX1|SX1|Feisar_Ship|Take 001|BaseLayer|SX1|Feisar_Ship|Take
+      001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .219999999
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
